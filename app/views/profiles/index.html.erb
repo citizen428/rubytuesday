@@ -16,7 +16,7 @@
         <td><%= profile.username %></td>
         <% if profile.avatar.attached? %>
           <td>
-            <%= profile.avatar_blob.filename %>
+            <%= image_tag profile.avatar.variant(resize: "50x50") %>
           </td>
         <% end %>
         <td><%= link_to 'Show', profile %></td>
