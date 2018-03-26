@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @profile.username %>
+</p>
+
+<% if @profile.avatar.attached? %>
+  <p>
+    <strong>Avatar:</strong>
+    <%= image_tag @profile.avatar %>
+  </p>
+<% end %>
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>
