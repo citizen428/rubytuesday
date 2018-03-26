@@ -1,0 +1,23 @@
+{
+  "name": "ruby_tuesday",
+  "private": true,
+  "engines": {
+    "node": ">=6.0.0",
+    "yarn": ">=0.25.2"
+  },
+  "dependencies": {
+    "@rails/webpacker": "^3.0.1",
+    "bootstrap": "4.0.0",
+    "jquery": "^3.2.1",
+    "jquery-ujs": "^1.2.2",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
