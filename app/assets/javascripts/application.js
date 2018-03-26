@@ -15,4 +15,5 @@
 //= require jquery-ujs/src/rails
 //= require popper.js/dist/umd/popper
 //= require bootstrap/dist/js/bootstrap
+//= require activestorage
 //= require_tree .
